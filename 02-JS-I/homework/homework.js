@@ -10,10 +10,10 @@ const nuevoNum = 21;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - '5' === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * "4" === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -62,9 +62,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x == y)
-  return true;
-else (x < y)
-return false;
+    return true;
+  else (x < y)
+    return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -72,9 +72,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length == str2.length)
-  return true;
+    return true;
   else (str1.length > str2.length)
-return false;   
+    return false;   
 }
 
 function menosQueNoventa(num) {
@@ -82,9 +82,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90)
-  return true; 
+    return true; 
   else (num == 90)
-  return false; 
+    return false; 
 }
 
 function mayorQueCincuenta(num) {
@@ -251,6 +251,7 @@ function esVocal(letra){
  else (letra == "p" || letra == "h")
  return "Dato incorrecto"; 
 }
+
 
 
 
