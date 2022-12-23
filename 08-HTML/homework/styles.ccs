@@ -1,0 +1,22 @@
+<style> 
+        .myH1{
+            color: black;
+        }
+        .divClass{
+            color: black;
+        }
+        .mystilo{
+            width: 400px;
+        }
+        .myalturaancho{
+            width: 500px;
+            height: 600px;
+            background-color: yellow;
+            padding: 50px;
+            border: double;
+        }
+        .tamañodefuente{
+            font-size: 18px;
+            margin: 50px;
+        }
+        </style>
